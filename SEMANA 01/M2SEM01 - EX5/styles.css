@@ -1,0 +1,23 @@
+.conteudo-principal {
+    background-color: #cecece;
+}
+
+ol, ul {
+    background-color: #cecece;
+   
+}
+
+h1 {
+    background-color: #fa94ca; 
+    text-align: center;
+}
+
+h2 {
+    background-color: #fa94ca; 
+    
+}
+
+p {
+    color: #fcfbff; 
+    font-size: 19px; 
+}
