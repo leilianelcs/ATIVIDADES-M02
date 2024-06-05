@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'comics sans', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container * {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;  
+    min-height: 100%; 
+}
+
+
+h1 {
+    color: rgb(251, 251, 251);
+    background-color: darkcyan;
+    align-items: center;  
+}
+
+h2 {
+    align-items: center;  
+}
+
+.lista {   
+    background-color: darkolivegreen;
+    color: rgb(176, 250, 221); 
+    flex-direction: row;
+    padding: 2em 5vw;
+    align-items: flex-end
+ }
+
+ 
+.li {
+    padding: 0em 1vw;
+}
+
