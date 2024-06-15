@@ -1,23 +1,23 @@
 # FloripaMaisTec - FuturoDev - Nature
 
-Atividades semanais do módulo 2 do curso Analista de Desenvolvimento Web do Sesi/Senai
+Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento Web oferecido pelo Sesi/Senai. Aqui você encontrará as atividades semanais focadas em HTML, CSS e muito mais!
 
-## MÓDULO 2 
+## Módulo 2: Desenvolvimento Front-End
 
-### SEMANA 01
-[M2S01] Ex. 1 - Estrutura básica de HTML
+### Semana 01: Introdução ao HTML e CSS
+- **[M2S01] Exercício 1:** Estrutura básica de HTML
+- **[M2S01] Exercício 2:** Adicionando imagens e links
+- **[M2S01] Exercício 3:** Estilizando com CSS
+- **[M2S01] Exercício 4:** Trabalhando com listas
 
-[M2S01] Ex. 2 - Adicionando imagens a links
+### Semana 02: Criando uma Página Web e Github
+- **[M2S02] Exercício 1:** Criando uma Página Web Simples
+- **[M2S01] Exercício 2:** Estilizando a Página Web
+- **[M2S01] Exercício 3:** Implementando um Formulário de Contato
+- **[M2S01] Exercício 4:** Instalação e Configuração do Git
+- **[M2S01] Exercício 5:** Clonando um projeto
+- **[M2S01] Exercício 6:** Fazendo Commits e Push
+- **[M2S01] Exercício 7:** Colaborando em um Projeto
 
-[M2S01] Ex. 3 - Estilizando com CSS
-
-[M2S01] Ex. 4 - Trabalhando com listas
-
-[M2S01] Ex. 5 - Estrutura Básica com CSS Externo
-
-### SEMANA 02
-[M2S02] Ex 1 - Criando uma Página Web Simples
-
-[M2S02] Ex 2 - Estilizando a Página Web
-
-[M2S02] Ex 3 - Implementando um Formulário de Contato
+### Semana 03: Criando com HTML
+- **[M2S02] Exercício 1:** Criar uma página de perfil pessoal utilizando as principais tags HTML
