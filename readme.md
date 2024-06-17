@@ -20,4 +20,8 @@ Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento W
 - **[M2S01] Exercício 7:** Colaborando em um Projeto
 
 ### Semana 03: Criando com HTML
-- **[M2S02] Exercício 1:** Criar uma página de perfil pessoal utilizando as principais tags HTML
+- **[M2S03] Exercício 1:** Criar uma página de perfil pessoal utilizando as principais tags HTML
+- **[M2S03] Exercício 2:** Melhorando a Estrutura Semântica e Metadados de um Projeto HTML
+- **[M2S03] Exercício 3:** Interação com o Usuário usando prompt e confirm
+- **[M2S03] Exercício 4:** Renderizando listas na DOM
+- **[M2S03] Exercício 5:** Criando um lista de tarefas
