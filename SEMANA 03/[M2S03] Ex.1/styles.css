@@ -4,6 +4,16 @@
     box-sizing: border-box; 
 }
 
+@media only screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
+
+
 html, body {
     height: 100%; 
     font-family: 'Arial', sans-serif;
@@ -17,13 +27,21 @@ html, body {
     min-height: 100vh;
 }
 
+.content {
+    background-color: rgb(255, 255, 255);
+    width: 80%; 
+    flex-grow: 1;
+}
+
 .nome {
     font-size: 40px; 
     height: auto;
+    align-items: center;
     position: absolute;
     left: 30.35%;
     right: 6.75%;
-    top: 13.68%;
+    top: center;
+   align-items: center;
 }
 
 .titulo {
@@ -34,14 +52,14 @@ html, body {
 }
 
 .cabecalho {
-    height: 80px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
 }
 
 header {
-    height: 110px;
+    height: 130px;
     background: #142338;
     color: #fff;
     padding: 1rem;
@@ -49,7 +67,7 @@ header {
 }
 
 header img {
-    height: 185px;
+    height: 190px;
     position: absolute;
     left: 30.35%;
     right: 6.75%;
@@ -68,34 +86,12 @@ main {
     flex-grow: 1;
 }
 
-.content {
-    background-color: rgb(255, 255, 255);
-    width: 80%; 
-    flex-grow: 1;
-}
-
 .experiencia {
     position: absolute;
     left: 30.35%;
     right: 6.75%;
-    top: 32.68%; 
-    margin-top: 20px;
-}
-
-.formacao {
-    position: absolute;
-    left: 30.35%;
-    right: 6.75%;
-    top: 79.68%; 
-    margin-top: 50px;
-}
-
-.contato {
-    position: absolute;
-    left: 30.35%;
-    right: 6.75%;
-    top: 113.68%;
-    margin-top: 80px;
+    top: 28.68%; 
+    margin-top: 70px;
 }
 
 .dadosContato {
@@ -127,10 +123,10 @@ section ul {
 .contato address {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px; 
+    gap: 10px; 
   }
   
-.dadosContato {
+  .dadosContato {
     flex: 1 1 calc(50% - 10px); 
     margin-bottom: 10px; 
     font-size: 16px;
