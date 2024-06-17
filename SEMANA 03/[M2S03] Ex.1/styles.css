@@ -14,12 +14,12 @@ html, body {
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 100%; 
+    min-height: 100vh;
 }
 
 .nome {
     font-size: 40px; 
-    height: 180px;
+    height: auto;
     position: absolute;
     left: 30.35%;
     right: 6.75%;
@@ -29,15 +29,17 @@ html, body {
 .titulo {
     background-color: lightblue;
     text-align: center;
-
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
-.header {
+.cabecalho {
     height: 80px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
-    
+
 header {
     height: 110px;
     background: #142338;
@@ -47,18 +49,12 @@ header {
 }
 
 header img {
-    height: 180px;
+    height: 185px;
     position: absolute;
     left: 30.35%;
     right: 6.75%;
     top: 2.68%;
     border: 10px solid white;
-}
-
-.main {
-    display: flex;
-    background-color: aqua;
-    height: 100%;
 }
 
 main {
@@ -68,11 +64,14 @@ main {
 .sidebar {
     background-color: lightblue;
     width: 340px;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .content {
     background-color: rgb(255, 255, 255);
     width: 80%; 
+    flex-grow: 1;
 }
 
 .experiencia {
@@ -80,34 +79,27 @@ main {
     left: 30.35%;
     right: 6.75%;
     top: 32.68%; 
+    margin-top: 20px;
 }
 
 .formacao {
     position: absolute;
     left: 30.35%;
     right: 6.75%;
-    top: 79.68%;  
+    top: 79.68%; 
+    margin-top: 50px;
 }
 
 .contato {
     position: absolute;
     left: 30.35%;
     right: 6.75%;
-    top: 113.68%;  
-}
-
-.infoContato {
-    -webkit-columns: 2; 
-    -moz-columns: 2;    
-    columns: 2;       
+    top: 113.68%;
+    margin-top: 80px;
 }
 
 .dadosContato {
-    break-inside: avoid-column; 
-}
-
-#formacao-academica {
-    background-color: lightblue; 
+    break-inside: avoid-column;
 }
 
 .sobre, .habilidades, .portfolio {
@@ -115,24 +107,55 @@ main {
 }
 
 a {
-    color: #333;
+    color: #0066cc;
     text-decoration: none;
+}
+
+section ul {
+    padding: 0 10%; 
+}
+
+.dadosContato div {
+     flex: 50%;
+  }
+
+.dadosContato a {
+    color: #0066cc; 
+    text-decoration: none; 
+}
+
+.contato address {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px; 
+  }
+  
+.dadosContato {
+    flex: 1 1 calc(50% - 10px); 
+    margin-bottom: 10px; 
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .dadosContato {
+        font-size: 14px;
+        flex-basis: 100%; 
+    }
 }
 
 a:hover {
     text-decoration: underline;
-}
 
-section ul {
-    padding: 0 3%; 
 }
-
 footer {
     background-color: #142338;
     color: white;
     text-align: center;
     padding: 2px 0;
     margin-top: auto; 
+    flex-shrink: 0;
 }
 
 .footer-content p {
