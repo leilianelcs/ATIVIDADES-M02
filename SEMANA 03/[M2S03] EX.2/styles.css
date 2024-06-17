@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
+
+
+html, body {
+    height: 100%; 
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    width: 80%; 
+    flex-grow: 1;
+}
+
+.nome {
+    font-size: 40px; 
+    height: auto;
+    align-items: center;
+    position: absolute;
+    left: 30.35%;
+    right: 6.75%;
+    top: center;
+   align-items: center;
+}
+
+.titulo {
+    background-color: lightblue;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.cabecalho {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+header {
+    height: 130px;
+    background: #142338;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    height: 190px;
+    position: absolute;
+    left: 30.35%;
+    right: 6.75%;
+    top: 2.68%;
+    border: 10px solid white;
+}
+
+main {
+    padding: 1rem;
+}
+
+.sidebar {
+    background-color: lightblue;
+    width: 340px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.experiencia {
+    position: absolute;
+    left: 30.35%;
+    right: 6.75%;
+    top: 28.68%; 
+    margin-top: 70px;
+}
+
+.dadosContato {
+    break-inside: avoid-column;
+}
+
+.sobre, .habilidades, .portfolio {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+section ul {
+    padding: 0 10%; 
+}
+
+.dadosContato article {
+     flex: 50%;
+  }
+
+.dadosContato a {
+    color: #0066cc; 
+    text-decoration: none; 
+}
+
+.contato address {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  
+  .dadosContato {
+    flex: 1 1 calc(50% - 10px); 
+    margin-bottom: 10px; 
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .dadosContato {
+        font-size: 14px;
+        flex-basis: 100%; 
+    }
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+footer {
+    background-color: #142338;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    margin-top: auto; 
+    flex-shrink: 0;
+}
+
+.footer-content p {
+    margin: 0;
+}
