@@ -1,0 +1,25 @@
+body {
+    font-family: 'comic sans', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #18044d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2970eb;
+    color: rgb(10, 0, 0);
+}
