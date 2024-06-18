@@ -3,11 +3,32 @@ document.getElementById('adicionarTarefa').addEventListener('click', function() 
     if (novaTarefa) {
         const lista = document.getElementById('listaTarefas');
         const item = document.createElement('li');
-        item.textContent = novaTarefa;
-        item.addEventListener('click', function() {
-            this.style.textDecoration = this.style.textDecoration === 'line-through' ? 'none' : 'line-through';
+        
+        const taskText = document.createElement('span');
+        taskText.textContent = novaTarefa;
+        item.appendChild(taskText);
+        
+        item.addEventListener('click', function() {        
+            if (taskText.style.textDecoration === 'line-through') {
+                taskText.style.textDecoration = 'none';
+                this.querySelector('.checklist-icon').remove();
+            } else {
+                taskText.style.textDecoration = 'line-through';
+                
+                const icon = document.createElement('span');
+                icon.classList.add('checklist-icon');
+                icon.innerHTML = '✔';
+                this.insertBefore(icon, this.firstChild); 
+            }
         });
+        
         lista.appendChild(item);
-        document.getElementById('novaTarefa').value = ''; // Limpa o campo de texto
+        document.getElementById('novaTarefa').value = ''; 
     }
 });
+
+
+
+
+
+

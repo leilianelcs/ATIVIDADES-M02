@@ -8,7 +8,7 @@ body {
     align-items: center; 
     height: 100vh;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0;  
 }
 
 .container {
@@ -24,7 +24,7 @@ input[type=text], button {
     padding: 10px; 
     border-radius: 10px;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 25px;
     height: 60px;
 }
 
@@ -42,11 +42,13 @@ button {
     max-width: 750px;
     border: 3px solid #250575;
     cursor: pointer;
+    font-size: 30px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+
 }
 
 li {
@@ -60,6 +62,15 @@ li {
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
 }
+
+.checklist-icon {
+    text-decoration: none; 
+    color: rgb(41, 8, 226); 
+    margin-right: 5px;
+}
+
+
+
