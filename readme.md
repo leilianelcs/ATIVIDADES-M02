@@ -25,3 +25,12 @@ Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento W
 - **[M2S03] Exercício 3:** Interação com o Usuário usando prompt e confirm
 - **[M2S03] Exercício 4:** Renderizando listas na DOM
 - **[M2S03] Exercício 5:** Criando um lista de tarefas
+
+### Semana 04: Criando com HTML
+- **[M2S04] Exercício 1:** 
+- **[M2S04] Exercício 2:** 
+- **[M2S04] Exercício 3:** 
+- **[M2S04] Exercício 4:** 
+- **[M2S04] Exercício 5:** 
+- **[M2S04] Exercício 6:** 
+
