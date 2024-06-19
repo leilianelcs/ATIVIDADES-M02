@@ -2,13 +2,16 @@
 
 # Mini Projeto - HTML Meus interesses - Por Leiliane Costa ✒️
 
+
 # Meus Interesses 💙 📑 📌
 Este projeto é uma aplicação web para listar e gerenciar interesses ou hobbies pessoais.
+
 
 ## 💻 Funcionalidades
 - Adicionar novos interesses à lista.
 - Visualizar todos os interesses salvos.
 - Limpar a lista de interesses.
+
 
 ## 🚀 Tecnologias Utilizadas
 - HTML
@@ -16,22 +19,27 @@ Este projeto é uma aplicação web para listar e gerenciar interesses ou hobbie
 - JavaScript
 - Local Storage do navegador para persistência dos dados.
 
+
 ## ⚙️ Instalação
 Para rodar esta aplicação localmente, siga estes passos:
 
 1. Clone o repositório para sua máquina local usando `git clone https://github.com/leilianelcs/ATIVIDADES-M02.git`.
 2. Abra o arquivo `index.html` em seu navegador para visualizar a aplicação.
 
+
 ## ⌨️ Uso 🖱️
 Para adicionar um novo interesse:
 1. Digite o interesse no campo de texto.
 2. Clique no botão "+" para adicionar à lista.
+
 Para limpar a lista de interesses:
 - Clique no botão "Limpar lista".
 
+
 ## 🖇️ Projeto orientado por:
-Profº Nicholas Macedo
-Profº Yan
+- Profº Nicholas Macedo
+- Profº Yan
+
 
 ## ✍ Contribuições 💡 
 Contribuições são sempre bem-vindas! Para contribuir:
