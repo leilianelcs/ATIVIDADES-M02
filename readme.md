@@ -34,3 +34,13 @@ Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento W
 - **[M2S04] Exercício 5:** 
 - **[M2S04] Exercício 6:** 
 
+### Semana 05: Mini Projeto "Meus interesses"
+- **[M2S04] Exercício 1:** Criar uma página que possamos adicionar nossos interesses e hobbies
+- **[M2S04] Exercício 2:** Adicionando um evento de clique e persistência os dados no localStorage
+- **[M2S04] Exercício 3:** 
+- **[M2S04] Exercício 4:** 
+- **[M2S04] Exercício 5:** 
+- **[M2S04] Exercício 6:** 
+
+
+
