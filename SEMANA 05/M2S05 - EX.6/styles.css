@@ -15,8 +15,15 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    width: 500px;
+    width: 45%;
     margin: auto;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
 }
 
 header {
@@ -63,6 +70,7 @@ input[type=text] {
     align-items: center;
     max-width: 750px;
     margin-top: 30px;
+    flex-wrap: wrap; 
 }
 
 .lista {
@@ -70,11 +78,6 @@ input[type=text] {
     font-size: 25px;
 }
 
-.button-clear {
-    background-color: darkgrey;
-    font-size: 20px;
-    cursor: pointer;
-}
 
 ul {
     list-style-type: none;
@@ -93,4 +96,54 @@ li {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 25px;
+    cursor: pointer;
+}
+
+.button-clear {
+    background-color: #250575;
+    border: 3px solid #250575;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checklist-icon {
+    text-decoration: none;
+    color: rgb(41, 8, 226);
+    margin-right: 5px;
+}
+
+.news {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 150px;
+    top: 100%;
+}
+
+#nota {
+    background-color: lightblue;
+    display: flex;
+    padding: 10px;
+    width: auto;
+    border-radius: 10px;
+  
+}
+
+.title-news-today {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0066cc; 
 }

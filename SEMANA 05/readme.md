@@ -4,7 +4,7 @@
 
 
 # Meus Interesses 💙 📑 📌
-Este projeto é uma aplicação web para listar e gerenciar interesses ou hobbies pessoais.
+Este projeto é uma aplicação simples para listar e gerenciar interesses ou hobbies pessoais.
 
 
 ## 💻 Funcionalidades

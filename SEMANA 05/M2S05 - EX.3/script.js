@@ -1,4 +1,3 @@
-
 function recuperarInteresses() {
   const lista = document.getElementById('listaTarefas');
   lista.innerHTML = '';
@@ -8,7 +7,24 @@ function recuperarInteresses() {
   if (interesses) {
     interesses.forEach(function (interesse) {
       const item = document.createElement('li');
-      item.textContent = interesse;
+      const taskText = document.createElement('span');
+      taskText.textContent = interesse;
+      item.appendChild(taskText);
+
+      item.addEventListener('click', function () {
+        if (taskText.style.textDecoration === 'line-through') {
+          taskText.style.textDecoration = 'none';
+          this.querySelector('.checklist-icon').remove();
+        } else {
+          taskText.style.textDecoration = 'line-through';
+
+          const icon = document.createElement('span');
+          icon.classList.add('checklist-icon');
+          icon.innerHTML = '✔';
+          this.insertBefore(icon, this.firstChild);
+        }
+      });
+
       lista.appendChild(item);
     });
   }
@@ -20,7 +36,6 @@ document.getElementById('adicionarInteresse').addEventListener('click', function
     const interesses = JSON.parse(localStorage.getItem('meus-interesses')) || [];
     interesses.push(novoInteresse);
     localStorage.setItem('meus-interesses', JSON.stringify(interesses));
-
     document.getElementById('novoInteresse').value = '';
     recuperarInteresses();
   }
@@ -31,6 +46,8 @@ document.querySelector('.button-clear').addEventListener('click', function () {
   recuperarInteresses();
 });
 
-document.addEventListener('DOMContentLoaded', recuperarInteresses);
-
+document.addEventListener('DOMContentLoaded', function () {
+  recuperarInteresses();
+  setInterval(recuperarInteresses, 1000);
+});
 
