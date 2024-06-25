@@ -12,10 +12,10 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    width: 45%;
+    width: 40%;
     margin: auto;
     position: relative;
 }
@@ -138,8 +138,7 @@ li {
     display: flex;
     padding: 10px;
     width: auto;
-    border-radius: 10px;
-  
+    border-radius: 10px;  
 }
 
 .title-news-today {

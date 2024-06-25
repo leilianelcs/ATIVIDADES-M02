@@ -30,15 +30,25 @@ function recuperarInteresses() {
   }
 }
 
-document.getElementById('adicionarInteresse').addEventListener('click', function () {
-  const novoInteresse = document.getElementById('novoInteresse').value;
-  if (novoInteresse) {
-    const interesses = JSON.parse(localStorage.getItem('meus-interesses')) || [];
+const adicionarInteresse = () => {
+  const novoInteresse = document.getElementById('novoInteresse').value.trim();
+  if (!novoInteresse) return;
+
+  const interesses = JSON.parse(localStorage.getItem('meus-interesses')) || [];
+  if (!interesses.includes(novoInteresse)) {
     interesses.push(novoInteresse);
     localStorage.setItem('meus-interesses', JSON.stringify(interesses));
     document.getElementById('novoInteresse').value = '';
     recuperarInteresses();
+    document.getElementById('novoInteresse').focus();
+  } else {
+    alert('Interesse já adicionado à lista.');
   }
+};
+
+document.getElementById('adicionarInteresse').addEventListener('click', adicionarInteresse);
+document.getElementById('novoInteresse').addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') adicionarInteresse();
 });
 
 document.querySelector('.button-clear').addEventListener('click', function () {
@@ -51,26 +61,19 @@ document.addEventListener('DOMContentLoaded', function () {
   setInterval(recuperarInteresses, 1000);
 });
 
-
-// Requisição para a API do IBGE notícias
 fetch('https://servicodados.ibge.gov.br/api/v3/noticias/?destaque=0')
   .then(response => response.json())
   .then(data => {
     const primeiraNoticia = data.items[0];
     if (primeiraNoticia) {
       const tituloNoticia = primeiraNoticia.titulo;
-      const linkNoticia = primeiraNoticia.link; 
+      const linkNoticia = primeiraNoticia.link;
 
       const titleNewsToday = document.querySelector('.title-news-today');
       titleNewsToday.textContent = tituloNoticia;
-      titleNewsToday.parentElement.href = linkNoticia; 
+      titleNewsToday.parentElement.href = linkNoticia;
     }
   })
   .catch(error => {
     console.error('Erro ao obter notícia:', error);
   });
-
-
-
-
-

@@ -1,29 +1,29 @@
-# FloripaMaisTec - FuturoDEV/Nature - Módulo 02 - Front-End
+# FloripaMaisTec - FuturoDEV/Nature - Módulo 02 - Front-End 🌟
 
 # Mini Projeto - HTML Meus interesses - Por Leiliane Costa ✒️
 
 
-# Meus Interesses 💙 📑 📌
+## Meus Interesses 💙 📑 📌
 Este projeto é uma aplicação simples para listar e gerenciar interesses ou hobbies pessoais.
 
 
 ## 💻 Funcionalidades
-- Adicionar novos interesses à lista.
-- Visualizar todos os interesses salvos.
-- Limpar a lista de interesses.
+- Adicionar novos interesses à lista
+- Visualizar todos os interesses salvos
+- Limpar a lista de interesses
 
 
 ## 🚀 Tecnologias Utilizadas
 - HTML
 - CSS
 - JavaScript
-- Local Storage do navegador para persistência dos dados.
+- Local Storage do navegador para persistência dos dados
 
 
 ## ⚙️ Instalação
 Para rodar esta aplicação localmente, siga estes passos:
 
-1. Clone o repositório para sua máquina local usando `git clone https://github.com/leilianelcs/ATIVIDADES-M02.git`.
+1. Clone este repositório para sua máquina.
 2. Abra o arquivo `index.html` em seu navegador para visualizar a aplicação.
 
 
@@ -39,9 +39,16 @@ Para limpar a lista de interesses:
 - Clique no botão "Limpar lista".
 
 
+## 📝 API de Notícias 
+Este projeto também faz uma requisição para a API de notícias do IBGE para exibir a primeira notícia destacada. O título da notícia é atualizado automaticamente a cada segundo.
+
+
 ## 🖇️ Projeto orientado por:
 - Profº Nicholas Macedo
 - Profº Yan Esteves
+
+## 📄 Licença
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
 
 ## ✍ Contribuições 💡 
@@ -52,7 +59,7 @@ Contribuições são sempre bem-vindas! Para contribuir:
 4. Faça push para a branch (`git push origin feature/novaFeature`).
 5. Abra um Pull Request.
 
-## Contato
+## Contato 
 - [@leilianelcs](https://www.github.com/leilianelcs)
 - 📫 leilianelc@gmail.com
 
