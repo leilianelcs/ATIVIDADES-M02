@@ -17,7 +17,7 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     width: 40%;
     margin: auto;
-    position: relative;
+    position: relative;  
 }
 
 @media screen and (max-width: 600px) {
@@ -36,6 +36,10 @@ header {
 header h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+header img {
+    width: 550px;
 }
 
 input[type=text],
@@ -127,10 +131,11 @@ li {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     width: 320px;
     position: absolute;
-    bottom: 20px;
+    bottom: 900px;
     right: 20px;
     height: 150px;
     top: 100%;
+    margin-bottom: 20px;
 }
 
 #nota {
@@ -139,10 +144,31 @@ li {
     padding: 10px;
     width: auto;
     border-radius: 10px;  
+    margin-top: 1px;
+    margin-bottom: 10px;
 }
 
 .title-news-today {
     cursor: pointer;
     text-decoration: underline;
     color: #0066cc; 
+}
+
+
+footer {
+    background-color: #142338;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    margin-top: auto; 
+    flex-shrink: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
 }

@@ -1,3 +1,19 @@
+const adicionarInteresse = () => {
+  const novoInteresse = document.getElementById('novoInteresse').value.trim();
+  if (!novoInteresse) return;
+
+  const interesses = JSON.parse(localStorage.getItem('meus-interesses')) || [];
+  if (!interesses.includes(novoInteresse)) {
+    interesses.push(novoInteresse);
+    localStorage.setItem('meus-interesses', JSON.stringify(interesses));
+    document.getElementById('novoInteresse').value = '';
+    recuperarInteresses();
+    document.getElementById('novoInteresse').focus();
+  } else {
+    alert('Interesse já adicionado à lista.');
+  }
+};
+
 function recuperarInteresses() {
   const lista = document.getElementById('listaTarefas');
   lista.innerHTML = '';
@@ -29,22 +45,6 @@ function recuperarInteresses() {
     });
   }
 }
-
-const adicionarInteresse = () => {
-  const novoInteresse = document.getElementById('novoInteresse').value.trim();
-  if (!novoInteresse) return;
-
-  const interesses = JSON.parse(localStorage.getItem('meus-interesses')) || [];
-  if (!interesses.includes(novoInteresse)) {
-    interesses.push(novoInteresse);
-    localStorage.setItem('meus-interesses', JSON.stringify(interesses));
-    document.getElementById('novoInteresse').value = '';
-    recuperarInteresses();
-    document.getElementById('novoInteresse').focus();
-  } else {
-    alert('Interesse já adicionado à lista.');
-  }
-};
 
 document.getElementById('adicionarInteresse').addEventListener('click', adicionarInteresse);
 document.getElementById('novoInteresse').addEventListener('keydown', (event) => {
