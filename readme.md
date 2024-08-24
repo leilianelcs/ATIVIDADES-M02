@@ -1,4 +1,6 @@
-# FloripaMaisTec - FuturoDev - Nature
+# FloripaMaisTec - FuturoDEV/Nature - Módulo 02 - Front-End 🌟
+
+# Por Leiliane Costa ✒️
 
 Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento Web oferecido pelo Sesi/Senai. Aqui você encontrará as atividades semanais focadas em HTML, CSS e muito mais!
 
@@ -10,7 +12,7 @@ Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento W
 - **[M2S01] Exercício 3:** Estilizando com CSS
 - **[M2S01] Exercício 4:** Trabalhando com listas
 
-### Semana 02: Criando uma Página Web e Github
+### Semana 02: HTML, CSS, Atributos de Eventos, Display, Flexbox, Display Grid
 - **[M2S02] Exercício 1:** Criando uma Página Web Simples
 - **[M2S01] Exercício 2:** Estilizando a Página Web
 - **[M2S01] Exercício 3:** Implementando um Formulário de Contato
@@ -19,28 +21,27 @@ Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento W
 - **[M2S01] Exercício 6:** Fazendo Commits e Push
 - **[M2S01] Exercício 7:** Colaborando em um Projeto
 
-### Semana 03: Criando com HTML
+### Semana 03:  HTML Semântico, SEO, DOM e Manipulação de Elementos
 - **[M2S03] Exercício 1:** Criar uma página de perfil pessoal utilizando as principais tags HTML
 - **[M2S03] Exercício 2:** Melhorando a Estrutura Semântica e Metadados de um Projeto HTML
 - **[M2S03] Exercício 3:** Interação com o Usuário usando prompt e confirm
 - **[M2S03] Exercício 4:** Renderizando listas na DOM
 - **[M2S03] Exercício 5:** Criando um lista de tarefas
 
-### Semana 04: Criando com HTML
-- **[M2S04] Exercício 1:** 
-- **[M2S04] Exercício 2:** 
-- **[M2S04] Exercício 3:** 
-- **[M2S04] Exercício 4:** 
-- **[M2S04] Exercício 5:** 
-- **[M2S04] Exercício 6:** 
+### Semana 04: Criando com HTML, Onclick, Atributos e Eventos
+- **[M2S04] Exercício 1:** Página Netflix
+- **[M2S04] Exercício 2:** Atributos de Eventos
+- **[M2S04] Exercício 3:** Atributo de eventos no menu da aplicação
+- **[M2S04] Exercício 4:** Adicionar Onclick
+- **[M2S04] Exercício 5:** HTML para JS
+- **[M2S04] Exercício 6:** Métodos de repetição
 
 ### Semana 05: Mini Projeto "Meus interesses"
-- **[M2S04] Exercício 1:** Criar uma página que possamos adicionar nossos interesses e hobbies
-- **[M2S04] Exercício 2:** Adicionando um evento de clique e persistência os dados no localStorage
-- **[M2S04] Exercício 3:** Atualização da lista a cada segundo
-- **[M2S04] Exercício 4:** Limpar lista de interesses
-- **[M2S04] Exercício 5:** Buscando notícias para seção de notícias do dia - Parte 1
-- **[M2S04] Exercício 6:** Buscando notícias para seção de notícias do dia
-
+- **[M2S05] Exercício 1:** Criar uma página que possamos adicionar nossos interesses e hobbies
+- **[M2S05] Exercício 2:** Adicionando um evento de clique e persistência os dados no localStorage
+- **[M2S05] Exercício 3:** Atualização da lista a cada segundo
+- **[M2S05] Exercício 4:** Limpar lista de interesses
+- **[M2S05] Exercício 5:** Buscando notícias para seção de notícias do dia - Parte 1
+- **[M2S05] Exercício 6:** Buscando notícias para seção de notícias do dia
 
 
