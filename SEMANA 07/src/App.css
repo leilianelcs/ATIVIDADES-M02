@@ -1,3 +1,88 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark; 
+  background-color: #f1ebeb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #150202;
+  border-radius: 5px;
+  background-color: rgb(142, 171, 161);
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s, border-color 0.25s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+strong {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza os botões */
+  gap: 10px;
+}
+
+.value-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -38,5 +123,43 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #d8d4d4;
+}
+
+.footer { 
+  bottom: 0;
+  width: 100%;
+  color: rgb(8, 1, 1);
+  text-align: center;
+  padding: 1px 0;
+  font-family: Arial, sans-serif;
+ }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+input { 
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  color: #150202;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 0;
+}
+
+.btn {
+
+  justify-content: center; 
+  align-items: center;
 }
