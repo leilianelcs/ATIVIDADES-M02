@@ -1,0 +1,38 @@
+.components-produtos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.escolha-produtos {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: fit-content;
+    
+}
+
+.lista-produtos li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding-left: 30px;
+    align-items: center;
+    padding: 10px;
+    grid-template-columns: repeat(7, 1fr);      
+}
+
+.lista-produtos li img {
+    width: 72px;
+    height: 72px;  
+}
+
+.content{
+    padding-bottom: 40px; 
+  }

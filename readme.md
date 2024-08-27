@@ -62,10 +62,11 @@ Bem-vindo ao repositório do módulo 2 do curso de Analista de Desenvolvimento W
 - **[M2S07] Exercício 5:** Crie um componente controlado
 
 ### Semana 08: 
-- **[M2S08] Exercício 1:** 
-- **[M2S08] Exercício 2:** 
-- **[M2S08] Exercício 3:** 
-- **[M2S08] Exercício 4:** 
-- **[M2S08] Exercício 5:** 
-- **[M2S08] Exercício 6:** 
-- **[M2S08] Exercício 7:** 
+- **[M2S08] Exercício 1:** Projeto Ze Delivery
+- **[M2S08] Exercício 2:** Página de Login
+- **[M2S08] Exercício 3:** Componente `hero`
+- **[M2S08] Exercício 4:** Componente 'categoria-produtos'
+- **[M2S08] Exercício 5:** Sistema de Rotas
+- **[M2S08] Exercício 6:** Componente Header
+- **[M2S08] Exercício 7:** Modificar página de login para conter instrução de que deve ser aceito usuário e senha com redirecionamento
+- **[M2S08] Exercício 8:** Construir um modal para perguntar o usuário se é maior que 18 anos na abertura da página de home
